@@ -17,11 +17,3 @@ try {
 } catch (error) {
     console.log('No se conecto a la base de datos: ${error}')
 }
-/*
-app.get('/',(req,res)=>{
-    res.send('ddddd')
-})
-*/
-app.listen(8000, ()=> {
-    console.log('Servidor esta corriendo en http://localhost:8000/')
-})
